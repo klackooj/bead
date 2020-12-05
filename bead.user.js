@@ -57,7 +57,7 @@
         button[i].style.backgroundColor = "#666";
     }
     for (i = 0; i < kw.length; i++){
-        kw[i].style.color = "#7AFFA2";
+        kw[i].style.color = "#00C73C";
     }
     for (i = 0; i < dt.length; i++){
         dt[i].style.color = "#FF734D";
