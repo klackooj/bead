@@ -2,6 +2,7 @@
 // @name         dark bead
 // @namespace    https://github.com/klackooj
 // @downloadURL  https://github.com/klackooj/bead/edit/main/bead.user.js
+// @include      *bead.inf.elte.hu*
 // @version      0.1
 // @description  ELTE bead dark switch
 // @author       klackooj
