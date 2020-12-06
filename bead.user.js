@@ -11,7 +11,7 @@
 
 (function() {
     'use strict';
-    document.getElementsByTagName("body")[0].style.backgroundColor = "#222222";
+    document.getElementsByTagName("body")[0].style.backgroundColor = "#181818";
     var code = document.getElementsByTagName("code");
     var div = document.getElementsByTagName("div");
     var td = document.getElementsByTagName("td");
@@ -50,11 +50,11 @@
     }
     for (i = 0; i < textarea.length; i++){
         textarea[i].style.color = "#A3A3A3";
-        textarea[i].style.backgroundColor = "#222222";
+        textarea[i].style.backgroundColor = "#181818";
     }
     for (i = 0; i < button.length; i++){
         button[i].style.color = "#A3A3A3";
-        button[i].style.backgroundColor = "#222222";
+        button[i].style.backgroundColor = "#181818";
     }
     for (i = 0; i < kw.length; i++){
         kw[i].style.color = "#00C73C";
