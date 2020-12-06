@@ -28,33 +28,33 @@
     var dv = document.getElementsByClassName("dv");
     var ch = document.getElementsByClassName("ch");
     for(var i = 0; i < div.length; i++){
-        div[i].style.color = "#FFF";
-        div[i].style.backgroundColor = "#333";
+        div[i].style.color = "#A3A3A3";
+        div[i].style.backgroundColor = "#121212";
     }
     for (i = 0; i < td.length; i++){
-        td[i].style.color = "#FFF";
-        td[i].style.backgroundColor = "#333";
+        td[i].style.color = "#A3A3A3";
+        td[i].style.backgroundColor = "#121212";
     }
     for (i = 0; i < code.length; i++){
         code[i].style.color = "#ED9CB0";
-        code[i].style.backgroundColor = "#222";
+        code[i].style.backgroundColor = "#121212";
     }
     for (i = 0; i < a.length; i++){
-        a[i].style.color = "#FFF";
-        a[i].style.backgroundColor = "#333";
+        a[i].style.color = "#74A9D8";
+        a[i].style.backgroundColor = "#121212";
     }
     timer.style.color = "yellow";
     for (i = 0; i < pre.length; i++){
-        pre[i].style.color = "#FFF";
-        pre[i].style.backgroundColor = "#333";
+        pre[i].style.color = "#A3A3A3";
+        pre[i].style.backgroundColor = "#121212";
     }
     for (i = 0; i < textarea.length; i++){
-        textarea[i].style.color = "#FFF";
-        textarea[i].style.backgroundColor = "#555";
+        textarea[i].style.color = "#A3A3A3";
+        textarea[i].style.backgroundColor = "#444";
     }
     for (i = 0; i < button.length; i++){
-        button[i].style.color = "#FFF";
-        button[i].style.backgroundColor = "#555";
+        button[i].style.color = "#A3A3A3";
+        button[i].style.backgroundColor = "#444";
     }
     for (i = 0; i < kw.length; i++){
         kw[i].style.color = "#00C73C";
