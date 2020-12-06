@@ -33,7 +33,6 @@
     }
     for (i = 0; i < td.length; i++){
         td[i].style.color = "#FFF";
-        td[i].style.opacity = 0.98;
         td[i].style.backgroundColor = "#333";
     }
     for (i = 0; i < code.length; i++){
@@ -47,12 +46,10 @@
     timer.style.color = "yellow";
     for (i = 0; i < pre.length; i++){
         pre[i].style.color = "#FFF";
-        pre[i].style.opacity = 0.98;
         pre[i].style.backgroundColor = "#333";
     }
     for (i = 0; i < textarea.length; i++){
         textarea[i].style.color = "#FFF";
-        textarea[i].style.opacity = 0.98;
         textarea[i].style.backgroundColor = "#555";
     }
     for (i = 0; i < button.length; i++){
