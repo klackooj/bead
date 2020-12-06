@@ -29,27 +29,33 @@
     var ch = document.getElementsByClassName("ch");
     for(var i = 0; i < div.length; i++){
         div[i].style.color = "#FFF";
+        div[i].style.opacity = 0.87;
         div[i].style.backgroundColor = "#333";
     }
     for (i = 0; i < td.length; i++){
         td[i].style.color = "#FFF";
+        td[i].style.opacity = 0.87;
         td[i].style.backgroundColor = "#333";
     }
     for (i = 0; i < code.length; i++){
         code[i].style.color = "#ED9CB0";
+        code[i].style.opacity = 0.95;
         code[i].style.backgroundColor = "#222";
     }
     for (i = 0; i < a.length; i++){
         a[i].style.color = "#FFF";
+        a[i].style.opacity = 0.87;
         a[i].style.backgroundColor = "#333";
     }
     timer.style.color = "yellow";
     for (i = 0; i < pre.length; i++){
         pre[i].style.color = "#FFF";
+        pre[i].style.opacity = 0.95;
         pre[i].style.backgroundColor = "#333";
     }
     for (i = 0; i < textarea.length; i++){
         textarea[i].style.color = "#FFF";
+        textarea[i].style.opacity = 0.95;
         textarea[i].style.backgroundColor = "#555";
     }
     for (i = 0; i < button.length; i++){
