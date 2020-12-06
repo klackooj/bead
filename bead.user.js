@@ -37,7 +37,7 @@
     }
     for (i = 0; i < code.length; i++){
         code[i].style.color = "#ED9CB0";
-        code[i].style.backgroundColor = "#121212";
+        code[i].style.backgroundColor = "#171717";
     }
     for (i = 0; i < a.length; i++){
         a[i].style.color = "#74A9D8";
@@ -46,7 +46,7 @@
     timer.style.color = "yellow";
     for (i = 0; i < pre.length; i++){
         pre[i].style.color = "#A3A3A3";
-        pre[i].style.backgroundColor = "#121212";
+        pre[i].style.backgroundColor = "#171717";
     }
     for (i = 0; i < textarea.length; i++){
         textarea[i].style.color = "#A3A3A3";
