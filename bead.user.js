@@ -17,6 +17,7 @@
     var td = document.getElementsByTagName("td");
     var textarea = document.getElementsByTagName("textarea");
     var button = document.getElementsByTagName("button");
+    var select = document.getElementsByTagName("select");
     var timer = document.getElementById("ctd");
     var a = document.getElementsByTagName("a");
     var pre = document.getElementsByTagName("pre");
@@ -57,6 +58,10 @@
     for (i = 0; i < button.length; i++){
         button[i].style.color = "#A3A3A3";
         button[i].style.backgroundColor = "#181818";
+    }
+    for (i = 0; i < select.length; i++){
+        select[i].style.color = "#A3A3A3";
+        select[i].style.backgroundColor = "#181818";
     }
     for (i = 0; i < kw.length; i++){
         kw[i].style.color = "#00C73C";
