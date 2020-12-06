@@ -28,6 +28,7 @@
     var ot = document.getElementsByClassName("ot");
     var dv = document.getElementsByClassName("dv");
     var ch = document.getElementsByClassName("ch");
+    var elfogadott = document.getElementsByClassName("label-success");
     for(var i = 0; i < div.length; i++){
         div[i].style.color = "#A3A3A3";
         div[i].style.backgroundColor = "#121212";
@@ -83,5 +84,8 @@
     }
     for (i = 0; i < ch.length; i++){
         ch[i].style.color = "#ABC5DE";
+    }
+    for (i = 0; i < elfogadott.length; i++){
+        elfogadott[i].style.backgroundColor = "#4CAE4C";
     }
 })();
