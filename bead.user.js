@@ -12,6 +12,7 @@
 (function() {
     'use strict';
     document.getElementsByTagName("body")[0].style.backgroundColor = "#181818";
+    document.getElementsByTagName("body")[0].style.color = "#FCFCFC";
     var code = document.getElementsByTagName("code");
     var div = document.getElementsByTagName("div");
     var td = document.getElementsByTagName("td");
