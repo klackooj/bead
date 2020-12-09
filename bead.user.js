@@ -30,6 +30,7 @@
     var dv = document.getElementsByClassName("dv");
     var ch = document.getElementsByClassName("ch");
     var elfogadott = document.getElementsByClassName("label-success");
+    var cover = document.getElementsByClassName("cover");
     for(var i = 0; i < div.length; i++){
         div[i].style.color = "#A3A3A3";
         div[i].style.backgroundColor = "#121212";
@@ -48,6 +49,9 @@
     }
     if (timer) {
         timer.style.color = "yellow";
+    }
+    if (cover) {
+        cover[0].append("Köszi, hogy használsz! ☺");
     }
     for (i = 0; i < pre.length; i++){
         pre[i].style.color = "#A3A3A3";
