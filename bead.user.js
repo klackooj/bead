@@ -57,6 +57,10 @@
     for (i = 0; i < pre.length; i++){
         pre[i].style.color = "#A3A3A3";
         pre[i].style.backgroundColor = "#121212";
+        let temp = pre[i].getElementsByTagName("code");
+        for (var j = 0; j < temp.length; j++){
+            temp[j].style.backgroundColor = "#121212";   
+        }
     }
     for (i = 0; i < textarea.length; i++){
         textarea[i].style.color = "#A3A3A3";
