@@ -48,7 +48,7 @@
         a[i].style.color = "#74A9D8";
         a[i].style.backgroundColor = "#121212";
     }
-    for (i = 0; i < timer.length; i++) {
+    if (timer) {
         timer.style.color = "yellow";
     }
     for (i = 0; i < timer.length; i++) {
