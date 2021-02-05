@@ -32,6 +32,7 @@
     var ch = document.getElementsByClassName("ch");
     var elfogadott = document.getElementsByClassName("label-success");
     var cover = document.getElementsByClassName("cover");
+    var input = document.getElementsByTagName("input");
     for(var i = 0; i < div.length; i++){
         div[i].style.color = "#A3A3A3";
         div[i].style.backgroundColor = "#121212";
@@ -51,7 +52,7 @@
     if (timer) {
         timer.style.color = "yellow";
     }
-    for (i = 0; i < timer.length; i++) {
+    for (i = 0; i < cover.length; i++) {
         cover[0].append("Köszi, hogy használsz! ☺");
     }
     for (i = 0; i < pre.length; i++){
@@ -59,7 +60,7 @@
         pre[i].style.backgroundColor = "#121212";
         let temp = pre[i].getElementsByTagName("code");
         for (var j = 0; j < temp.length; j++){
-            temp[j].style.backgroundColor = "#121212";   
+            temp[j].style.backgroundColor = "#121212";
         }
     }
     for (i = 0; i < textarea.length; i++){
@@ -97,5 +98,9 @@
     }
     for (i = 0; i < elfogadott.length; i++){
         elfogadott[i].style.backgroundColor = "#4CAE4C";
+    }
+    for (i = 0; i < input.length; i++){
+        input[i].style.color = "#A3A3A3";
+        input[i].style.backgroundColor = "#181818";
     }
 })();
