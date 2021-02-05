@@ -60,9 +60,6 @@
     if (timer) {
         timer.style.color = "yellow";
     }
-    if (cover) {
-        cover[0].append("Köszi, hogy használsz! ☺");
-    }
     if (pre) {
         for (i = 0; i < pre.length; i++){
             pre[i].style.color = "#A3A3A3";
@@ -136,5 +133,8 @@
             select[i].style.color = "#A3A3A3";
             select[i].style.backgroundColor = "#181818";
         }
+    }
+    if (cover) {
+        cover[0].append("Köszi, hogy használsz! ☺");
     }
 })();
