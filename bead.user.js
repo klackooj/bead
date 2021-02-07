@@ -33,6 +33,7 @@
     var elfogadott = document.getElementsByClassName("label-success");
     var cover = document.getElementsByClassName("cover");
     var input = document.getElementsByTagName("input");
+    var th = document.getElementsByTagName("th");
     for(var i = 0; i < div.length; i++){
         div[i].style.color = "#A3A3A3";
         div[i].style.backgroundColor = "#121212";
@@ -102,5 +103,9 @@
     for (i = 0; i < input.length; i++){
         input[i].style.color = "#A3A3A3";
         input[i].style.backgroundColor = "#181818";
+    }
+    for (i = 0; i < th.length; i++){
+        th[i].style.color = "#A3A3A3";
+        th[i].style.backgroundColor = "#121212";
     }
 })();
